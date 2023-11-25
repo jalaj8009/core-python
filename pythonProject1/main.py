@@ -455,7 +455,7 @@
 
 
 
-#print calculator
+# print calculator
 
 # num=int(input("enter first number="))
 # num2=int(input("enter second number="))
@@ -472,7 +472,7 @@
 #     print("invalid syntax")
 
 
-#date time
+# date time
 # import datetime
 # x=datetime.datetime.now()
 # print(x)
@@ -531,7 +531,7 @@
 # print(math.sqrt(x))
 
 
-#RANDOM MODULE
+# RANDOM MODULE
 # import random
 # n=random.randint(1,10)
 # print(n)
@@ -556,14 +556,28 @@
 
 
 
-#write a program for random number and one number entered by user for compairing
+# write a program for random number and one number entered by user for comparing
 # import random
-# a=int(input("enter any number between 1 to 9 = "))
-# b=random.randint(1,9)
+# a = int(input("enter any number between 1 to 9 = "))
+# b = random.randint(1,9)
 # print("guess number=",b)
-# if a>b:
+# if a > b :
 #     print("enter number is bigger than guess")
-# elif b>a:
+# elif b > a :
 #     print("enter number is less than guess")
 # else:
-#     print("both are equal")
+#     print("enter number is equal")
+
+# 25/11/2023
+# break
+# for a in range(1,10):
+#     if a%2==0:
+#         break
+#     print(a)
+#
+#
+# # continue
+# for a in range(1,11):
+#     if a%3==0:
+#      continue
+#     print(a)

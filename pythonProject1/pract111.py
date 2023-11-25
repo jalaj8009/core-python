@@ -1,22 +1,5 @@
-# num=int(input("enter any number="))
-# s=0
-# p=0
-# for x in range(2,num):
-#       if (num % x)==0:
-#
-#       else:
-#           p.append(x)
-#
-# if s >=1:
-#     print("not prime number")
-# else:
-#     print("prime number")
-#
-#
 
 
-
-# num=int(input("enter any number"))
 # To take input from the user
 # num = int(input("Enter a number: "))
 #
@@ -31,7 +14,7 @@
 #             break
 #     else:
 #         print(num, "is a prime number")
-#
+
 # # if input number is less than
 # # or equal to 1, it is not prime
 # else:
@@ -92,3 +75,89 @@
 # print(a)
 # print(b)
 
+
+# class Democlass:
+#
+#
+#     def __init__(self):
+#         print("hi  hrays")
+#
+#     def showdetail(self):
+#         print("welcome to rays")
+#
+#     def sum(self,a,b):
+#         print("sum is = ",a+b)
+#
+#
+#
+#
+#
+# obj=Democlass()
+# obj.showdetail()
+# obj.sum(100,200)
+
+#
+# number=int(input("enter any number="))
+# if number>1:
+#    for i in  range(2,int(number**0.5)+1):
+#       if number%i ==0:
+#         print("not prime number")
+#         break
+#
+#    else:
+#         print("number is a prime number")
+#
+# else:
+#     print("is not prime number")
+
+# prime number
+# number=int(input("enter any number="))
+# if number>1:
+#    for i in  range(2,number):
+#       if number%i ==0:
+#         print("not prime number")
+#         break
+#
+#    else:
+#         print("number is a prime number")
+#
+# else:
+#     print("is not prime number")
+
+#25/11/2023
+# x=int(input("enter any number= "))
+# y=int(input("enter number should be greater than x= "))
+# for number in range(x,y):
+#  if number>1:
+#    for i in  range(2,number):
+#       if number%i ==0:
+#
+#
+#         break
+#
+#    else:
+#         print(number,"number is a prime number")
+#
+# else:
+#     print("upto=",y)
+
+class A:
+    car=4
+    bike=6
+    truck=10
+
+    def showdetailA(self):
+        print("this is class A")
+
+class B:
+    BMW=1
+    AUDI=2
+
+    def showdetailB(self):
+        print("this is class B")
+
+objA=A()
+print(objA.car)
+print(objA.bike)
+print(objA.truck)
+objA.showdetailA()
