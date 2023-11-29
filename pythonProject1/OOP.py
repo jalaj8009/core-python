@@ -252,7 +252,7 @@
 # obj=Student()
 
 
-class person:
+class Person:
     __name =""
     __age=""
     __salary=""
@@ -267,5 +267,5 @@ class person:
     def getpersoninfo(self):
         return self.__name,self.__age,self.__salary,self.__bonus
 
-obj=person()
+obj=Person()
 obj.setpersoninfo()
