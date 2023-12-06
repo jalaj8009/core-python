@@ -581,3 +581,6 @@
 #     if a%3==0:
 #      continue
 #     print(a)
+
+
+

@@ -133,7 +133,27 @@
 #
 # except Exception as e:
 #     print(e)
+#
+# import pickle
+# l=[1,2,3,4,5,6]
+# file=open("asd1.txt","wb")
+# pickle.dump(l,file)
+# file.close()
 
-
-
-
+# 6/12/2023
+# class A:
+#     "i am python developer"
+#     name="rays"
+#     age=23
+#     print(name)
+#
+#     def show(self):
+#         "i am a trader"
+#         self.salary=1000
+#         print(self.salary)
+#
+# object =A()
+# print(A.age)
+# print(object.__doc__)
+# object.show()
+# print(object.show.__doc__)

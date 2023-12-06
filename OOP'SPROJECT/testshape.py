@@ -49,14 +49,14 @@
 # #print(para.parameter())
 
 
-from traingle import traingle
-tri=traingle(12,34,12)
-s=traingle(12,34,12)
-s.setthirdside(int(input("enter third side")))
-s.setbase(int(input("enter base")))
-s.setlength(int(input("enter length")))
+# from traingle import traingle
+# tri=traingle(12,34,12)
+# s=traingle(12,34,12)
+# s.setthirdside(int(input("enter third side")))
+# s.setbase(int(input("enter base")))
+# s.setlength(int(input("enter length")))
 #print(tri.area())
-print(s.area())
-print(s.parameter())
+# print(s.area())
+# print(s.parameter())
 #para=traingle(12,34,12)
 #print(para.parameter())

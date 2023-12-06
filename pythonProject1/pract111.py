@@ -141,23 +141,36 @@
 # else:
 #     print("upto=",y)
 
-class A:
-    car=4
-    bike=6
-    truck=10
+# class A:
+#     car=4
+#     bike=6
+#     truck=10
+#
+#     def showdetailA(self):
+#         print("this is class A")
+#
+# class B:
+#     BMW=1
+#     AUDI=2
+#
+#     def showdetailB(self):
+#         print("this is class B")
+#
+# objA=A()
+# print(objA.car)
+# print(objA.bike)
+# print(objA.truck)
+# objA.showdetailA()
 
-    def showdetailA(self):
-        print("this is class A")
 
-class B:
-    BMW=1
-    AUDI=2
+# a=int(input("enter"))
+# b=int
+# count =a
+# while(count>=1):
+#     count = b
+#     count -= 1
+#
+# print(b*count)
 
-    def showdetailB(self):
-        print("this is class B")
-
-objA=A()
-print(objA.car)
-print(objA.bike)
-print(objA.truck)
-objA.showdetailA()
+a=(input("enter number : "))
+print(a[::-1])
