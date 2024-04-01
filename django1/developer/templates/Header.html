@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% load static%}
+<table width="100%" border="0">
+    <tr>
+        <td width="90%">
+            <a href="/ORS/Welcome"><b>Welcome</b></a> |
+            {% if request.session.user.firstName == None %}
+            <a href="/ORS/Login"><b>Login</b></a>
+            {% else %}
+            <a href="/ORS/Logout"><b>Logout</b></a>
+            {% endif %}
+        </td>
+    </tr>
+</table>
+</body>
+</html>

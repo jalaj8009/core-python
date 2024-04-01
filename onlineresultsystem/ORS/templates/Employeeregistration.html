@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post">
+    {% include './Header.html' %}
+    {% csrf_token %}
+    <br> <br>
+    <div align="center">
+        <h1 align="center" style="margin-bottom: -15; color: navy">
+            {% if form.id > 0 %}
+            Update User
+            {% else %}
+            Add User
+            {% endif %}
+        </h1>
+        <table>
+            <tr>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="hidden" name="id" value="{{form.id}}"></td>
+            </tr>
+            <tr>
+                <th>DEVELOPERS NAME:</th>
+                <td><input type="text" name="developer_name" value="{{form.developer_name}}"></td>
+            </tr>
+            <tr>
+                <th>DEPARTMENT:</th>
+                <td><input type="text" name="department" value="{{form.department}}"></td>
+            </tr>
+            <tr>
+                <th>PROJECT:</th>
+                <td><input type="text" name="project" value="{{form.project}}"></td>
+            </tr>
+            <tr>
+                <th>STATUS:</th>
+                <td><input type="text" name="status" value="{{form.status}}"></td>
+            </tr>
+              <tr>
+                <th>SUBMITTING DATE:</th>
+                <td><input type="text" name="submitting_date" value="{{form.submitting_date}}"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="operation" value="Register"></td>
+            </tr>
+        </table>
+    </div>
+    <br> <br> <br> <br> <br> <br> <br>
+    <br> <br> <br> <br>
+</form>
+</body>
+</html>
